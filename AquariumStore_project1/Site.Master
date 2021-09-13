@@ -53,7 +53,7 @@
                         <li><a runat="server" href="~/">Home</a></li>
                         <li><a runat="server" href="~/About">About</a></li>
                         <li><a runat="server" href="~/Contact">Contact</a></li>
-                    </ul>
+                        </ul>
                     <ul class="nav navbar-nav navbar-right">
                         <li> <asp:LinkButton ID="login_btn" runat="server" Onclick="login_btn_Click">Login</asp:LinkButton></li>
                         <li> <asp:LinkButton ID="register_btn" runat="server" OnClick="register_btn_Click">Sign Up</asp:LinkButton></li>

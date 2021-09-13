@@ -41,15 +41,8 @@ namespace AquariumStore_project1
                 return this.profile;
             }
         }
-
-        //public Label username_show
-        //{
-        //    get
-        //    {
-        //        return this.username_loggedin;
-        //    }
-        //}
-
+        
+        
         protected void login_btn_Click(object sender, EventArgs e)
         {
             Response.Redirect("~/UserAccess/Login");
@@ -68,7 +61,8 @@ namespace AquariumStore_project1
 
         protected void profile_Click(object sender, EventArgs e)
         {
-
+            Response.Redirect("UserDetails");
         }
+        
     }
 }
